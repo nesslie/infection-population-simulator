@@ -9,7 +9,7 @@ class Person2{
     Visitor *visitors;
     int dayInfected;
     bool visited;
-    friend const bool operator<(const Person2 &a, const Person2 &b){
+    friend const bool operator<(const Person2 &a, const Person2 &b){ // Operator overloading to compare the infections between people
       if(a.dayInfected < b.dayInfected) 
                 return true;
        return false;

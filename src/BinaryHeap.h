@@ -1,3 +1,5 @@
+// CREDITS GO TO MARK WEISS FOR WRITING THE ORIGINAL IMPLEMENTATION
+// Work I did: Edit the binary heap to use an array instead of a vector for speed purposes        
         #ifndef _BINARY_HEAP_H_
         #define _BINARY_HEAP_H_
 
